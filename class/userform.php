@@ -10,6 +10,7 @@ function sign_up(){
 <!DOCTYPE html>
 
 <link rel="stylesheet" type="text/css" href="add.css">
+<link rel="stylesheet" href="css/style.css">
 <meta name="viewport" content="wwidth=device-width,intial-scale=1.0"/>
 <meta charset="UTF-8">
 <html>
