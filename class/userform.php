@@ -53,6 +53,7 @@ function sign_up(){
 
 <?php
 
+
 }
 
 }

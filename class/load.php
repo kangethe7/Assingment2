@@ -2,6 +2,7 @@
 session_start();
 require "userform.php";
 require "userform2.php"; 
+require "display.php";
 require "pdo.php";  
 
 
@@ -22,3 +23,4 @@ spl_autoload_register('classAutoLoad');
 
 $userForm = new userform();
 $userForm2 = new userform2();
+$displayUsers = new display();
