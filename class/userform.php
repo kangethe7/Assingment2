@@ -6,20 +6,19 @@ function sign_up(){
 
 ?>
 
-
 <!DOCTYPE html>
-
-<link rel="stylesheet" type="text/css" href="add.css">
-<link rel="stylesheet" href="css/style.css">
+<html>
+<head>
 <meta name="viewport" content="wwidth=device-width,intial-scale=1.0"/>
 <meta charset="UTF-8">
-<html>
-<form action="userform2.php" method="POST">
-<head>
+<link rel="stylesheet" href="../css/style.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<h1>WELCOME TO THE SIGNUP PAGE</h1>
 </head>
 <body>
+<link rel="stylesheet" href="../css/style.css">
+<div class="container">
+<h1>WELCOME TO THE SIGNUP PAGE</h1>
+<form action="userform2.php" method="POST">
   <div class="row mb-3">
     <label for="username" class="col-sm-2 col-form-label">Username</label>
     <div class="col-sm-10">
@@ -46,6 +45,7 @@ function sign_up(){
   </div>
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

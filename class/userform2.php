@@ -5,7 +5,6 @@ class userform2 {
         // Include the database connection file
         include 'pdo.php'; // Ensure 'pdo.php' establishes a PDO connection in $conn variable
 
-        print_r($_POST);
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -30,6 +29,8 @@ class userform2 {
                     $stmt->bindParam(':username', $username);
                     $stmt->bindParam(':email', $email);
                     $stmt->bindParam(':password', $hashedPassword);
+
+
 
                     // Execute the statement
                     if ($stmt->execute()) {

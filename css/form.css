@@ -2,29 +2,50 @@ body {
     font-family: sans-serif;
     background-color: #f2f2f2; /* Light gray background */
     color: #333; /* Dark gray text */
-  }
+}
   
-  h1 {
+h1 {
     text-align: center;
-    color: #007bff; /* Blue heading */
-    margin-bottom: 20px;
-  }
+    color: #17c19a; /* Blue heading */
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    text-shadow: #17c19a;
+    width: 100%;
+}
+
+.input{
+    height: 17px;
+    width: 70%;
+}
   
-  .form-control {
+.form-control {
     border: 1px solid #ced4da; /* Light gray border */
-  }
+}
   
-  .form-control:focus {
+.form-control:focus {
     border-color: #007bff; /* Blue border on focus */
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
-  }
+}
   
-  .btn-primary {
-    background-color: #007bff; /* Blue button */
-    border-color: #007bff; /* Blue button border */
-  }
+.btn-primary {
+    background-color: #17c19a; /* Blue button */
+    border-color: #17c19a; /* Blue button border */
+}
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: #0069d9; /* Darker blue on hover */
     border-color: #0062cc; /* Darker blue border on hover */
-  }
+}
+.container{
+    margin: 40px;
+    width: 70%;
+    padding: 20px;
+    align-content: center;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(15%, 15%);
+}
